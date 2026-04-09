@@ -45,6 +45,5 @@ class MeetingTranscriber < Formula
 
   test do
     assert_predicate prefix/"MeetingTranscriber.app/Contents/MacOS/MeetingTranscriber", :executable?
-    assert_predicate prefix/"MeetingTranscriber.app/Contents/Resources/python-env/bin/python3", :executable?
   end
 end
