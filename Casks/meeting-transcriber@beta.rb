@@ -1,6 +1,6 @@
 cask "meeting-transcriber@beta" do
-  version "0.5.1-rc7"
-  sha256 "41aece0c11504d25c06ca1e4a835a84df550127cb11c4ea722ab6f2907560604"
+  version "0.5.1-rc8"
+  sha256 "964c1349f7fec6886e7bc157b25cf9875d8e1ea3e1579f703c9282128bc6a083"
 
   url "https://github.com/pasrom/meeting-transcriber/releases/download/v#{version}/MeetingTranscriber-#{version}.dmg"
   name "Meeting Transcriber (Beta)"
