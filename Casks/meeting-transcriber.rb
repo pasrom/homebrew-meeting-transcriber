@@ -7,7 +7,7 @@ cask "meeting-transcriber" do
   desc "Auto-transcribe and summarize meetings"
   homepage "https://github.com/pasrom/meeting-transcriber"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "MeetingTranscriber.app"
 
